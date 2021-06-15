@@ -15,6 +15,12 @@ Raspador-Betway é um raspador que utiliza selenium e python para capturar diver
 >>> rasparEsportesAoVivo = lerAovivo()
 >>> raspartTabelaDeEsportes = capturaEsportes()
 ```
+## Uso com CMD
+#Para executar basta abrir a pasta do onde encontra o arquivo digitar o nome do arquivo que é: executeRaspador.py e enviar os argumentos, de acordo com a execução Python.
+
+C:\Users\Administrador\Documents\Raspador-Betway> python executeRaspador.py <NOMEDAFUNÇÃO> <ARGUMENTo1> <ARGUMENTO2>}
+C:\Users\Administrador\Documents\Raspador-Betway>python executeRaspador.py rasparLigas soccer Brasileirão.Série.A
+C:\Users\Administrador\Documents\Raspador-Betway>python executeRaspador.py rasparLigas soccer Copa
 
 ## Bibliotecas
 	

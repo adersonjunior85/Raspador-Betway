@@ -1,4 +1,6 @@
+#!/usr/bin/env python
 from raspadorBetway import *
+import sys
 
 def rasparTodosJogos(esporte):
     driver = raspador.iniciaNavegador()
@@ -39,9 +41,13 @@ def capturaEsportes():
     print(esportes)
     return esportes
 
-    
-#rasparLigas("tennis","Nottingham")
-#lerTodasOddsPorLiga("tennis","Nottingham")
-#data = rasparTodosJogos("soccer")
-#lerAovivo()
-#capturaEsportes()
+if sys.argv[1] == "rasparLigas":
+    rasparLigas(sys.argv[2],sys.argv[3].replace("."," "))
+elif sys.argv[1] == "lerTodasOddsPorLiga":
+    lerTodasOddsPorLiga(sys.argv[2],sys.argv[3].replace("."," "))
+elif sys.argv[1] == "rasparTodosJogos":
+    rasparTodosJogos("soccer")
+elif sys.argv[1] == "lerAovivo":
+    lerAovivo()
+elif sys.argv[1] == "capturaEsportes":
+    capturaEsportes()
