@@ -11,11 +11,26 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.expected_conditions import staleness_of
 from selenium.common.exceptions import ElementClickInterceptedException, NoSuchElementException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 
 class raspador():
     def iniciaNavegador():
-        options = webdriver.ChromeOptions()
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+        chrome_options = webdriver.ChromeOptions()
+        user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
+        chrome_options.add_argument(f'user-agent={user_agent}')
+        chrome_options.add_argument("--window-size=1920,1080")
+        chrome_options.add_argument("--disable-extensions")
+        chrome_options.add_argument("--proxy-server='direct://'")
+        chrome_options.add_argument("--proxy-bypass-list=*")
+        chrome_options.add_argument("--start-maximized")
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--disable-gpu')
+        chrome_options.add_argument('--disable-dev-shm-usage')
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('--ignore-certificate-errors')
+        driver = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options)
         return driver
 
     def fechaNavegador(driver):
@@ -24,14 +39,13 @@ class raspador():
     def aceitaCoockie(driver):
         try:                                                                            #tentativa de fechar o coockie
             driver.find_element_by_class_name("cookiePolicyAcceptButton").click()       #comando para clicar em OK
-            print("Coockie aceitado")                                                   #caso dê certo retorna essa mensagem
-        except:                                                                         #caso dê errado abre uma exceção
-            print("Coockie não identificado")
+        except:
+            pass                                                                        #caso dê errado abre uma exceção
 
     def raspadorPaises(driver,esporte):
         dicionarioGlobal = []
         driver.get("https://betway.com/pt/sports/ctg/"+esporte)
-        time.sleep(5)
+        time.sleep(4)
         raspador.aceitaCoockie(driver)
         ligasTabela = driver.find_elements_by_class_name("collapsablePanel")
         buttons = driver.find_elements_by_class_name("showAllButton")                   #
@@ -40,18 +54,15 @@ class raspador():
         try:
             while clica != linhas:            
                 driver.find_elements_by_class_name("showAllButton")[clica].click() 
-                time.sleep(4)
-                print("c")
+                time.sleep(6)
                 raspador.expandirLigas(driver)
-                print("b")
                 dicionarioGlobal.append(raspador.ligasParser(driver))
-                print("a")
                 driver.get("https://betway.com/pt/sports/ctg/"+esporte)
                 time.sleep(4)
                 linhas = len(driver.find_elements_by_class_name("showAllButton"))
                 clica += 1
         except:
-            print("Erro raspadorPaises")  
+            pass
         return dicionarioGlobal
 
     def raspadorLigasPaises(driver,esporte,liga):
@@ -66,15 +77,12 @@ class raspador():
 
     def ligaUnicaParser(driver):
         global dicionarioGlobal
-        print("Iniciando leitura de liga")
         addDicionarioGlobal = []
         dictLigas = []
         dictJogos = []
-        print("Iniciando leitura")
         painelCentral = driver.find_element_by_class_name("mainPanel")
         ligaNome = driver.find_element_by_class_name("title").text
         tabelas = painelCentral.find_elements_by_class_name("collapsablePanel")
-        print("Iniciando captura de dados na página")
         for tabelaData in tabelas:
             linhas = tabelaData.find_elements_by_class_name("oneLineEventItem")
             for linha in linhas:
@@ -92,15 +100,12 @@ class raspador():
         
     def ligasParser(driver):
         global dicionarioGlobal
-        print("Iniciando leitura de ligas")
         addDicionarioGlobal = []
         dictLigas = []
         dictJogos = []
-        print("Iniciando leitura")
         painelCentral = driver.find_element_by_class_name("mainPanel")
         paisNome = driver.find_element_by_class_name("title").text
         tabelas = painelCentral.find_elements_by_class_name("alternativeHeaderBackground")
-        print("Iniciando captura de dados na página")
         for tabela in tabelas:
             liga = tabela.find_element_by_class_name("collapsableHeader")
             datasOdds = tabela.find_elements_by_class_name("collapsablePanel")
@@ -119,7 +124,6 @@ class raspador():
                     dictJogos.append({'Equipes': equipe,'id':idJogo , 'Dia': dia, 'Hora': hora, 'Odds': odd})
             dictLigas.append({ligaNome:dictJogos})
         date = {paisNome:dictLigas}
-        print(date)
         return date
 
     def expandirLigas(driver):
@@ -129,23 +133,19 @@ class raspador():
             if len(tabelas) < 1:
                 tabelas = painelCentral.find_elements_by_class_name("subCategoryListWrapperContent")
             for x in tabelas:#inicia um laço dentro das tabelas
-                print("Abertura de abas de ligas ocultas iniciado...")
                 try:
                     x.find_element_by_class_name("eventTableItemCollection")#procura uma tabela que deveria estar aparecendo 
                     liga = x.find_element_by_class_name("collapsableHeader")#captura a liga
                 except Exception as err:#caso de errado a tentiva acima incia o tratamento da exceção
-                    print("Aba oculta detectada, abrindo...")
                     x.find_element_by_class_name("collapsableHeader").click()#clica na aba oculta
                     time.sleep(0.3)#espera 1 segundo para continuar
                     liga = x.find_element_by_class_name("collapsableHeader")#captura a liga que antes estava oculta
                 datasOdds = x.find_elements_by_class_name("collapsablePanel")#captura a tabela com dados dentro da tabela para procurar mais tabelas ocultas
                 for x in datasOdds:#inicia um laço para pesquisar mais abas ocultas
-                    print("Abertura de abas de dias ocultas iniciado...")
                     try:
                         x.find_element_by_class_name("collapsableContent.empty")
                         x.find_element_by_class_name("collapsableHeader").click()
-                        time.sleep(1)
-                        print("Aba oculta detectada, abrindo...")
+                        time.sleep(0.4)
                     except:
                         pass 
         except:
@@ -227,7 +227,7 @@ class raspador():
         htmls = raspador.pegaHrefAoVivo(driver)
         for abreGuia in htmls: 
             driver.get(abreGuia)
-            time.sleep(5)
+            time.sleep(4)
             raspador.aceitaCoockie(driver)
             mainPanel = driver.find_element_by_class_name("mainContent")
             jogos = mainPanel.find_elements_by_class_name("collapsablePanel")
@@ -257,7 +257,8 @@ class raspador():
     def capturaEsportesPaginaInicial(driver):
         esportes = []
         driver.get("https://betway.com/pt/sports")
-        time.sleep(6)
+        time.sleep(3)
+        driver.get_screenshot_as_file("screenshot.png")
         classeEsportes = driver.find_element_by_class_name("categoryListLayout.stacked")
         listaEsportes = classeEsportes.find_elements_by_class_name("categoryListItem")
         for esporte in listaEsportes:
