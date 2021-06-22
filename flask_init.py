@@ -8,6 +8,11 @@ import os
 
 app = Flask(__name__)
 
+@app.route('/api', methods=['GET'])
+def callFunction_rasparTodosJogos():
+	return "Correto"
+
+
 @app.route('/api/rasparTodosJogos/<string:esporte>', methods=['GET'])
 def callFunction_rasparTodosJogos(esporte):
 	data = rasparTodosJogos(esporte)
