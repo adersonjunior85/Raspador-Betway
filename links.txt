@@ -1,0 +1,9 @@
+http://127.0.0.1:5000/api/rasparLigas/soccer/Brasileirão%20Série%20A
+
+http://127.0.0.1:5000/api/leraovivo
+
+http://127.0.0.1:5000/api/rasparTodosJogos/soccer
+
+http://127.0.0.1:5000/api/lerTodasOddsPorLiga/soccer/Brasileirão%20Série%20A
+
+http://127.0.0.1:5000/api/capturaEsportes
