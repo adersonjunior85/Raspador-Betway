@@ -6,15 +6,15 @@ Raspador-Betway é um raspador que utiliza selenium e python para capturar diver
 
 ## Uso
 
-```python
->>> 
+Basta iniciar o flask_init.py, usando comando no cmd:
+python flask_init.py
+E fazer a request das seguintes formas:
+http://127.0.0.1:5000/api/capturaEsportes
+http://127.0.0.1:5000/api/lerTodasOddsPorLiga/<ESPORTE>/<NOMEDALIGA>
+http://127.0.0.1:5000/api/rasparTodosJogos/<ESPORTE>
+http://127.0.0.1:5000/api/leraovivo
+http://127.0.0.1:5000/api/rasparLigas/<ESPORTE>/<NOMEDALIGA>
 
->>> rasparLigas = rasparLigas("soccer","Brasileirão Série A")
->>> lerTodasOddsPorLiga = lerTodasOddsPorLiga("soccer","Brasileirão Série A")
->>> RasparEsporte = rasparTodosJogos("tennis")
->>> rasparEsportesAoVivo = lerAovivo()
->>> raspartTabelaDeEsportes = capturaEsportes()
-```
 
 ## Bibliotecas
 	
