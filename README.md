@@ -11,20 +11,12 @@ Raspador-Betway é um raspador que utiliza selenium e python para capturar diver
       * [python flask_init.py](#pre-requisitos)
    * [E fazer a request das seguintes formas:](#tabela-de-conteudo)
       * [http://127.0.0.1:5000/api/capturaEsportes](#pre-requisitos)
-      * [http://127.0.0.1:5000/api/lerTodasOddsPorLiga/<ESPORTE>/<NOMEDALIGA>](#local-files)
-      * [http://127.0.0.1:5000/api/rasparTodosJogos/<ESPORTE>](#remote-files)
+      * [http://127.0.0.1:5000/api/lerTodasOddsPorLiga/ESPORTE/NOMEDALIGA](#local-files)
+      * [http://127.0.0.1:5000/api/rasparTodosJogos/ESPORTE](#remote-files)
       * [http://127.0.0.1:5000/api/leraovivo](#multiple-files)
-      * [http://127.0.0.1:5000/api/rasparLigas/<ESPORTE>/<NOMEDALIGA>](#combo)
+      * [http://127.0.0.1:5000/api/rasparLigas/ESPORTE/NOMEDALIGA](#combo)
 
 <!--te-->
-*
-*python flask_init.py
-*E fazer a request das seguintes formas:
-*http://127.0.0.1:5000/api/capturaEsportes
-*http://127.0.0.1:5000/api/lerTodasOddsPorLiga/<ESPORTE>/<NOMEDALIGA>
-*http://127.0.0.1:5000/api/rasparTodosJogos/<ESPORTE>
-*http://127.0.0.1:5000/api/leraovivo
-*http://127.0.0.1:5000/api/rasparLigas/<ESPORTE>/<NOMEDALIGA>
 
 
 ## Bibliotecas
@@ -33,6 +25,14 @@ Raspador-Betway é um raspador que utiliza selenium e python para capturar diver
 *requests==2.25.1
 *selenium==3.141.0
 *webdriver-manager==3.3.0
+<!--ts-->
+   * [beautifulsoup4==4.9.3](#Sobre)
+   * [requests==2.25.1](#tabela-de-conteudo)
+   * [selenium==3.141.0](#tabela-de-conteudo)
+   * [webdriver-manager==3.3.0](#tabela-de-conteudo)
+
+<!--te-->
+
 
 ## Comandos
 
@@ -40,3 +40,10 @@ Raspador-Betway é um raspador que utiliza selenium e python para capturar diver
 *pip install requests
 *pip install selenium
 *pip install webdriver-manager
+<!--ts-->
+   * [pip install beautifulsoup4](#Sobre)
+   * [pip install requests](#tabela-de-conteudo)
+   * [pip install selenium](#tabela-de-conteudo)
+   * [pip install webdriver-manager](#tabela-de-conteudo)
+
+<!--te-->
