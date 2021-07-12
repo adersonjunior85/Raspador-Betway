@@ -5,36 +5,32 @@
                 "Amistosos": [
                     {
                         "Cambrian and Clydach -Penybont Fc": {
-                            "placar": "0\n-\n1",
-                            "tempo": "1.º tempo\n,\n23'",
-                            "odds": [
-                                "",
-                                "",
-                                ""
-                            ],
+                            "placar": "0\n-\n4",
+                            "tempo": "Primeiro tempo\n,\n45'",
+                            "odds": [],
                             "id": "https://betway.com/pt/sports/evt/7958123"
                         }
                     },
                     {
                         "Aveley -Redbridge": {
-                            "placar": "0\n-\n0",
-                            "tempo": "1.º tempo\n,\n4'",
+                            "placar": "2\n-\n0",
+                            "tempo": "1.º tempo\n,\n37'",
                             "odds": [
-                                "1,57",
-                                "4,33",
-                                "4,33"
+                                "1,01",
+                                "15,00",
+                                "41,00"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7958102"
                         }
                     },
                     {
                         "HNK Hajduk Split -Zrinjski Mostar": {
-                            "placar": "0\n-\n0",
-                            "tempo": "Aguardando começo",
+                            "placar": "0\n-\n2",
+                            "tempo": "1.º tempo\n,\n24'",
                             "odds": [
-                                "1,28",
-                                "5,00",
-                                "8,50"
+                                "5,25",
+                                "4,50",
+                                "1,45"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7958016"
                         }
@@ -44,33 +40,25 @@
             {
                 "Primera Nacional": [
                     {
-                        "Villa Dalmine -Instituto Ac Cordoba": {
-                            "placar": "1\n-\n2",
-                            "tempo": "2.º tempo\n,\n90'",
-                            "odds": [],
-                            "id": "https://betway.com/pt/sports/evt/7942803"
-                        }
-                    },
-                    {
                         "Deportivo Riestra -Deportivo Maipu": {
                             "placar": "0\n-\n0",
-                            "tempo": "Primeiro tempo\n,\n45'",
+                            "tempo": "2.º tempo\n,\n66'",
                             "odds": [
-                                "3,00",
-                                "2,15",
-                                "3,30"
+                                "3,60",
+                                "1,70",
+                                "4,20"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7942793"
                         }
                     },
                     {
                         "San Martin De San Juan -Barracas Central": {
-                            "placar": "0\n-\n1",
-                            "tempo": "1.º tempo\n,\n17'",
+                            "placar": "1\n-\n2",
+                            "tempo": "Primeiro tempo\n,\n45'",
                             "odds": [
-                                "3,75",
-                                "3,30",
-                                "1,87"
+                                "5,25",
+                                "3,10",
+                                "1,70"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7942804"
                         }
@@ -78,37 +66,17 @@
                 ]
             },
             {
-                "Allsvenskan": [
-                    {
-                        "Halmstads BK -Djurgardens": {
-                            "placar": "0\n-\n0",
-                            "tempo": "2.º tempo\n,\n90'",
-                            "odds": [],
-                            "id": "https://betway.com/pt/sports/evt/7911324"
-                        }
-                    },
-                    {
-                        "Kalmar FF -Hacken": {
-                            "placar": "2\n-\n3",
-                            "tempo": "2.º tempo\n,\n90'",
-                            "odds": [],
-                            "id": "https://betway.com/pt/sports/evt/7911337"
-                        }
-                    }
-                ]
-            },
-            {
                 "eSoccer Liga Pro": [
                     {
-                        "Xalinho FC (XAL) eSoccer -Megapolice (MEG) eSoccer": {
-                            "placar": "2\n-\n0",
-                            "tempo": "2.º tempo\n,\n10'",
+                        "Megapolice (MEG) eSoccer -Fints (FIN) eSoccer": {
+                            "placar": "0\n-\n0",
+                            "tempo": "Aguardando começo",
                             "odds": [
-                                "1,03",
-                                "11,00",
-                                "26,00"
+                                "2,05",
+                                "4,33",
+                                "2,62"
                             ],
-                            "id": "https://betway.com/pt/sports/evt/7958309"
+                            "id": "https://betway.com/pt/sports/evt/7958390"
                         }
                     }
                 ]
@@ -118,11 +86,11 @@
                     {
                         "Club Atletico Rentistas -Liverpool Montevideo": {
                             "placar": "1\n-\n1",
-                            "tempo": "Primeiro tempo\n,\n45'",
+                            "tempo": "2.º tempo\n,\n66'",
                             "odds": [
-                                "5,25",
-                                "2,90",
-                                "1,77"
+                                "5,75",
+                                "2,15",
+                                "2,15"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7932185"
                         }
@@ -132,85 +100,25 @@
             {
                 "Jogos Sub-21": [
                     {
-                        "CS Constantine Sub-21 -US Biskra Sub-21": {
-                            "placar": "3\n-\n2",
-                            "tempo": "2.º tempo\n,\n89'",
-                            "odds": [
-                                "1,01",
-                                "13,00",
-                                "151,00"
-                            ],
-                            "id": "https://betway.com/pt/sports/evt/7957180"
-                        }
-                    },
-                    {
-                        "MC Alger Sub-21 -Alger Sub-21": {
-                            "placar": "1\n-\n0",
-                            "tempo": "2.º tempo\n,\n86'",
-                            "odds": [
-                                "1,06",
-                                "7,50",
-                                "67,00"
-                            ],
-                            "id": "https://betway.com/pt/sports/evt/7957508"
-                        }
-                    },
-                    {
-                        "Olympique Medea Sub-21 -JSM Skikda Sub-21": {
-                            "placar": "1\n-\n2",
-                            "tempo": "2.º tempo\n,\n90'",
-                            "odds": [],
-                            "id": "https://betway.com/pt/sports/evt/7957176"
-                        }
-                    },
-                    {
-                        "RC Relizane Sub-21 -NC Magra Sub-21": {
-                            "placar": "3\n-\n1",
-                            "tempo": "2.º tempo\n,\n90'",
-                            "odds": [],
-                            "id": "https://betway.com/pt/sports/evt/7957181"
-                        }
-                    },
-                    {
-                        "Paradou AC Sub-21 -Tlemcen Sub-21": {
-                            "placar": "2\n-\n0",
-                            "tempo": "2.º tempo\n,\n86'",
-                            "odds": [
-                                "",
-                                "",
-                                ""
-                            ],
-                            "id": "https://betway.com/pt/sports/evt/7957182"
-                        }
-                    },
-                    {
-                        "Belouizdad Sub-21 -ASO Chlef Sub-21": {
-                            "placar": "5\n-\n0",
-                            "tempo": "2.º tempo\n,\n83'",
-                            "odds": [],
-                            "id": "https://betway.com/pt/sports/evt/7957183"
-                        }
-                    },
-                    {
                         "Bel-Abbes Sub-21 -AS Ain M lila Sub-21": {
                             "placar": "0\n-\n0",
-                            "tempo": "Aguardando começo",
+                            "tempo": "1.º tempo\n,\n20'",
                             "odds": [
-                                "2,75",
-                                "3,10",
-                                "2,40"
+                                "2,90",
+                                "3,00",
+                                "2,37"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957525"
                         }
                     },
                     {
                         "CABBA Sub-21 -JS Saoura Sub-21": {
-                            "placar": "0\n-\n0",
-                            "tempo": "Aguardando começo",
+                            "placar": "1\n-\n1",
+                            "tempo": "1.º tempo\n,\n19'",
                             "odds": [
-                                "4,50",
-                                "3,40",
-                                "1,72"
+                                "3,75",
+                                "3,10",
+                                "1,95"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957318"
                         }
@@ -218,11 +126,11 @@
                     {
                         "Oran Sub-21 -ESS Sub-21": {
                             "placar": "0\n-\n0",
-                            "tempo": "Aguardando começo",
+                            "tempo": "1.º tempo\n,\n22'",
                             "odds": [
-                                "2,10",
-                                "3,20",
-                                "3,20"
+                                "2,40",
+                                "2,75",
+                                "3,10"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957317"
                         }
@@ -233,12 +141,12 @@
                 "Primera D Metropolitana": [
                     {
                         "Juventud Unida San Miguel -Centro Espanol": {
-                            "placar": "0\n-\n0",
-                            "tempo": "Primeiro tempo\n,\n45'",
+                            "placar": "0\n-\n1",
+                            "tempo": "2.º tempo\n,\n65'",
                             "odds": [
-                                "3,80",
-                                "2,15",
-                                "2,70"
+                                "29,00",
+                                "5,75",
+                                "1,14"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957893"
                         }
@@ -246,11 +154,11 @@
                     {
                         "Sportivo Barracas -Yupanqui": {
                             "placar": "1\n-\n1",
-                            "tempo": "1.º tempo\n,\n45'",
+                            "tempo": "2.º tempo\n,\n61'",
                             "odds": [
-                                "",
-                                "",
-                                ""
+                                "2,75",
+                                "1,83",
+                                "5,25"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957894"
                         }
@@ -261,30 +169,14 @@
                 "Catarinense B": [
                     {
                         "Atletico Catarinense SC -Fluminense SC": {
-                            "placar": "1\n-\n0",
-                            "tempo": "Primeiro tempo\n,\n45'",
+                            "placar": "2\n-\n1",
+                            "tempo": "2.º tempo\n,\n65'",
                             "odds": [
-                                "",
-                                "",
-                                ""
+                                "1,22",
+                                "4,75",
+                                "17,00"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957234"
-                        }
-                    }
-                ]
-            },
-            {
-                "Jogos Sub20": [
-                    {
-                        "Macapa AP Sub-20 -Sao Paulo AP Sub-20": {
-                            "placar": "0\n-\n0",
-                            "tempo": "Aguardando começo",
-                            "odds": [
-                                "1,14",
-                                "7,00",
-                                "13,00"
-                            ],
-                            "id": "https://betway.com/pt/sports/evt/7957999"
                         }
                     }
                 ]
@@ -293,12 +185,12 @@
                 "Copa": [
                     {
                         "Union Espanola -Magallanes": {
-                            "placar": "0\n-\n0",
-                            "tempo": "Aguardando começo",
+                            "placar": "1\n-\n0",
+                            "tempo": "1.º tempo\n,\n27'",
                             "odds": [
-                                "1,60",
-                                "3,60",
-                                "5,25"
+                                "1,37",
+                                "4,33",
+                                "7,00"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957764"
                         }
@@ -310,11 +202,11 @@
                     {
                         "Atletico Bucaramanga Feminino -Deportivo Cali Feminino": {
                             "placar": "0\n-\n0",
-                            "tempo": "Aguardando começo",
+                            "tempo": "1.º tempo\n,\n25'",
                             "odds": [
                                 "5,00",
-                                "4,00",
-                                "1,53"
+                                "3,40",
+                                "1,65"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7958095"
                         }
@@ -322,10 +214,10 @@
                     {
                         "Fortaleza Feminino -Llaneros FC Feminino": {
                             "placar": "0\n-\n0",
-                            "tempo": "Aguardando começo",
+                            "tempo": "1.º tempo\n,\n22'",
                             "odds": [
-                                "1,87",
-                                "3,75",
+                                "2,10",
+                                "3,10",
                                 "3,30"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7958096"
@@ -334,16 +226,56 @@
                 ]
             },
             {
+                "Futebol Feminino": [
+                    {
+                        "Fylkir Reykjavik Feminino -Breidablik Kopavogur Feminino": {
+                            "placar": "0\n-\n0",
+                            "tempo": "1.º tempo\n,\n10'",
+                            "odds": [
+                                "8,50",
+                                "5,50",
+                                "1,25"
+                            ],
+                            "id": "https://betway.com/pt/sports/evt/7957991"
+                        }
+                    }
+                ]
+            },
+            {
+                "Premier League": [
+                    {
+                        "KR Reykjavik -Keflavik IF": {
+                            "placar": "1\n-\n0",
+                            "tempo": "1.º tempo\n,\n10'",
+                            "odds": [
+                                "1,16",
+                                "6,50",
+                                "11,00"
+                            ],
+                            "id": "https://betway.com/pt/sports/evt/7926542"
+                        }
+                    },
+                    {
+                        "Leiknir Reykjavik -IA Akranes": {
+                            "placar": "0\n-\n0",
+                            "tempo": "1.º tempo\n,\n8'",
+                            "odds": [
+                                "",
+                                "",
+                                ""
+                            ],
+                            "id": "https://betway.com/pt/sports/evt/7926543"
+                        }
+                    }
+                ]
+            },
+            {
                 "Premier League": [
                     {
                         "Ramtha SC -FC Maan": {
-                            "placar": "1\n-\n1",
-                            "tempo": "2.º tempo\n,\n61'",
-                            "odds": [
-                                "2,20",
-                                "2,00",
-                                "7,00"
-                            ],
+                            "placar": "3\n-\n2",
+                            "tempo": "2.º tempo\n,\n90'",
+                            "odds": [],
                             "id": "https://betway.com/pt/sports/evt/7953055"
                         }
                     }
@@ -353,12 +285,12 @@
                 "1.ª Divisão": [
                     {
                         "KFUM Oslo -IK Start": {
-                            "placar": "0\n-\n1",
-                            "tempo": "Primeiro tempo\n,\n45'",
+                            "placar": "0\n-\n2",
+                            "tempo": "2.º tempo\n,\n70'",
                             "odds": [
-                                "3,80",
-                                "3,20",
-                                "1,90"
+                                "29,00",
+                                "9,00",
+                                "1,08"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7926257"
                         }
@@ -370,25 +302,13 @@
                     {
                         "Union Huaral -Juan Aurich": {
                             "placar": "1\n-\n0",
-                            "tempo": "Primeiro tempo\n,\n45'",
+                            "tempo": "2.º tempo\n,\n69'",
                             "odds": [
-                                "1,57",
-                                "3,40",
-                                "6,00"
+                                "1,40",
+                                "3,50",
+                                "10,00"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957232"
-                        }
-                    }
-                ]
-            },
-            {
-                "Premier League": [
-                    {
-                        "Al Merrikh SC -Al Khartoum": {
-                            "placar": "2\n-\n2",
-                            "tempo": "2.º tempo\n,\n90'",
-                            "odds": [],
-                            "id": "https://betway.com/pt/sports/evt/7957994"
                         }
                     }
                 ]
@@ -398,11 +318,11 @@
                     {
                         "Deportivo Maldonado Reservas -Montevideo Wanderers Reservas": {
                             "placar": "0\n-\n0",
-                            "tempo": "Primeiro tempo\n,\n45'",
+                            "tempo": "2.º tempo\n,\n65'",
                             "odds": [
-                                "2,90",
-                                "2,50",
-                                "2,80"
+                                "3,40",
+                                "1,95",
+                                "3,40"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957982"
                         }
@@ -417,11 +337,11 @@
                 "Domination League": [
                     {
                         "Izako Boars -GamerLegion": {
-                            "placar": "0\n-\n0",
+                            "placar": "0\n-\n1",
                             "tempo": "",
                             "odds": [
-                                "",
-                                ""
+                                "4,00",
+                                "1,18"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7952093"
                         }
@@ -433,10 +353,10 @@
                     {
                         "Team Queso -Cream Real Betis": {
                             "placar": "0\n-\n0",
-                            "tempo": "Aguardando começo",
+                            "tempo": "",
                             "odds": [
-                                "2,10",
-                                "1,65"
+                                "1,65",
+                                "2,10"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7941531"
                         }
@@ -444,33 +364,40 @@
                 ]
             },
             {
-                "ESEA Premier Europe": [
+                "ESEA Advanced Europe": [
                     {
-                        "Apeks -Skade": {
-                            "placar": "0\n-\n2",
-                            "tempo": "",
-                            "odds": [],
-                            "id": "https://betway.com/pt/sports/evt/7957716"
-                        }
-                    },
-                    {
-                        "Anonymo -DBL PONEY": {
-                            "placar": "0\n-\n1",
+                        "PACT -BankaPEPSI": {
+                            "placar": "0\n-\n0",
                             "tempo": "",
                             "odds": [
-                                "2,60",
-                                "1,40"
+                                "",
+                                ""
+                            ],
+                            "id": "https://betway.com/pt/sports/evt/7957718"
+                        }
+                    }
+                ]
+            },
+            {
+                "ESEA Premier Europe": [
+                    {
+                        "Anonymo -DBL PONEY": {
+                            "placar": "1\n-\n1",
+                            "tempo": "",
+                            "odds": [
+                                "2,10",
+                                "1,60"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957715"
                         }
                     },
                     {
                         "Sprout -Enterprise": {
-                            "placar": "0\n-\n0",
+                            "placar": "0\n-\n1",
                             "tempo": "",
                             "odds": [
-                                "",
-                                ""
+                                "1,57",
+                                "2,15"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957717"
                         }
@@ -480,14 +407,14 @@
             {
                 "Contenders": [
                     {
-                        "Sheer Cold -Ex Oblivione": {
-                            "placar": "1\n-\n1",
+                        "Falcons Esports -Old and Bored": {
+                            "placar": "0\n-\n0",
                             "tempo": "",
                             "odds": [
-                                "",
-                                ""
+                                "1,02",
+                                "8,50"
                             ],
-                            "id": "https://betway.com/pt/sports/evt/7958264"
+                            "id": "https://betway.com/pt/sports/evt/7958293"
                         }
                     }
                 ]
@@ -501,10 +428,10 @@
                     {
                         "Steve Johnson -Denis Kudla ●": {
                             "placar": "0\n-\n1",
-                            "tempo": "2º Set\n0\n-\n0\n0\n-\n0",
+                            "tempo": "2º Set\n5\n-\n3\n15\n-\n15",
                             "odds": [
-                                "4,30",
-                                "1,22"
+                                "2,10",
+                                "1,75"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7953070"
                         }
@@ -546,40 +473,25 @@
             {
                 "Newport - Eliminatória": [
                     {
-                        "● Mitchell Krueger -Ramkumar Ramanathan": {
-                            "placar": "1\n-\n0",
-                            "tempo": "2º Set\n3\n-\n2\n0\n-\n0",
+                        "Mitchell Krueger -Ramkumar Ramanathan ●": {
+                            "placar": "1\n-\n1",
+                            "tempo": "3º Set\n0\n-\n0\n0\n-\n15",
                             "odds": [
-                                "1,05",
-                                "10,00"
+                                "2,50",
+                                "1,55"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957193"
                         }
                     },
                     {
-                        "Brayden Schnur -Ulises Blanch ●": {
-                            "placar": "0\n-\n0",
-                            "tempo": "1.º Set\n1\n-\n0\n40\n-\n40",
+                        "● Brayden Schnur -Ulises Blanch": {
+                            "placar": "1\n-\n0",
+                            "tempo": "2º Set\n2\n-\n2\n30\n-\n0",
                             "odds": [
-                                "1,40",
-                                "2,95"
+                                "1,09",
+                                "7,50"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957194"
-                        }
-                    }
-                ]
-            },
-            {
-                "Amersfoort - Holanda": [
-                    {
-                        "● Alexey Vatutin -Marc Polmans": {
-                            "placar": "1\n-\n1",
-                            "tempo": "3º Set\n2\n-\n2\nA\n-\n40",
-                            "odds": [
-                                "1,90",
-                                "1,90"
-                            ],
-                            "id": "https://betway.com/pt/sports/evt/7952365"
                         }
                     }
                 ]
@@ -588,11 +500,11 @@
                 "Todi - Itália": [
                     {
                         "● Pedro Cachin -Facundo Diaz Acosta": {
-                            "placar": "0\n-\n0",
-                            "tempo": "1.º Set\n2\n-\n2\n30\n-\n15",
+                            "placar": "1\n-\n0",
+                            "tempo": "2º Set\n0\n-\n1\nA\n-\n40",
                             "odds": [
-                                "1,44",
-                                "2,85"
+                                "",
+                                ""
                             ],
                             "id": "https://betway.com/pt/sports/evt/7952367"
                         }
@@ -600,10 +512,10 @@
                     {
                         "Francesco Passaro -Dmitry Popko ●": {
                             "placar": "0\n-\n0",
-                            "tempo": "1.º Set\n0\n-\n0\n30\n-\n30",
+                            "tempo": "1.º Set\n4\n-\n4\n15\n-\n40",
                             "odds": [
-                                "2,10",
-                                "1,75"
+                                "2,30",
+                                "1,61"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7952578"
                         }
@@ -643,14 +555,14 @@
             {
                 "Challenger Series": [
                     {
-                        "Mathieu De Saintilan -Amirreza Abbasi": {
-                            "placar": "11\n-\n0",
+                        "Andrei Putuntica -Carlos Muhlbach": {
+                            "placar": "11\n-\n9",
                             "tempo": "",
                             "odds": [
-                                "1,05",
-                                "9,50"
+                                "1,38",
+                                "2,90"
                             ],
-                            "id": "https://betway.com/pt/sports/evt/7957163"
+                            "id": "https://betway.com/pt/sports/evt/7957164"
                         }
                     }
                 ]
@@ -658,36 +570,56 @@
             {
                 "Liga Pro Moscou": [
                     {
-                        "Igor Mikhaylov -Evgeny Valerievich Makarenkov": {
-                            "placar": "8\n-\n5",
+                        "Aleksandr Akekseev -Georgy Bardyshev": {
+                            "placar": "11\n-\n10",
                             "tempo": "",
-                            "odds": [
-                                "1,10",
-                                "6,50"
-                            ],
-                            "id": "https://betway.com/pt/sports/evt/7953591"
+                            "odds": [],
+                            "id": "https://betway.com/pt/sports/evt/7953595"
                         }
                     },
                     {
-                        "Artem Tsitselskiy -Alik Girevenkov": {
-                            "placar": "5\n-\n6",
+                        "Dmitriy Tunitsyn -Dmitry Petrochenko": {
+                            "placar": "3\n-\n4",
                             "tempo": "",
                             "odds": [
-                                "2,05",
-                                "1,70"
+                                "1,80",
+                                "1,90"
                             ],
-                            "id": "https://betway.com/pt/sports/evt/7953593"
+                            "id": "https://betway.com/pt/sports/evt/7953597"
                         }
                     },
                     {
-                        "Vladimir Marshalov -Bogdan Grebenyuk": {
-                            "placar": "11\n-\n8",
+                        "Evgeniy Glazun -Ivan Afanasyev": {
+                            "placar": "5\n-\n5",
                             "tempo": "",
                             "odds": [
-                                "1,05",
-                                "11,00"
+                                "1,40",
+                                "2,75"
                             ],
-                            "id": "https://betway.com/pt/sports/evt/7953592"
+                            "id": "https://betway.com/pt/sports/evt/7953596"
+                        }
+                    }
+                ]
+            },
+            {
+                "Setka Cup": [
+                    {
+                        "Grigoriy Kuleshov -Vitalii Kyilo": {
+                            "placar": "0\n-\n0",
+                            "tempo": "Aguardando começo",
+                            "odds": [],
+                            "id": "https://betway.com/pt/sports/evt/7953448"
+                        }
+                    },
+                    {
+                        "Pavlo Khakhamidi -Sergey Sokolov": {
+                            "placar": "4\n-\n3",
+                            "tempo": "",
+                            "odds": [
+                                "1,25",
+                                "4,00"
+                            ],
+                            "id": "https://betway.com/pt/sports/evt/7953449"
                         }
                     }
                 ]
@@ -695,36 +627,47 @@
             {
                 "TT Cup": [
                     {
-                        "Yevhenii Holoborodko -Anatolii Zapletniuk": {
-                            "placar": "9\n-\n4",
+                        "Artem Tkachenko -Andrii Troian": {
+                            "placar": "0\n-\n0",
                             "tempo": "",
                             "odds": [
-                                "1,01",
-                                "11,00"
+                                "5,75",
+                                "1,12"
                             ],
-                            "id": "https://betway.com/pt/sports/evt/7953501"
+                            "id": "https://betway.com/pt/sports/evt/7958340"
                         }
                     },
                     {
-                        "Andrey Kotik -Valentyn Yunchyk": {
-                            "placar": "3\n-\n4",
+                        "Dmitriy Vahta -Nazarii Hrytsyienko": {
+                            "placar": "3\n-\n3",
                             "tempo": "",
                             "odds": [
-                                "1,35",
-                                "3,00"
+                                "4,00",
+                                "1,22"
                             ],
-                            "id": "https://betway.com/pt/sports/evt/7953502"
+                            "id": "https://betway.com/pt/sports/evt/7953505"
                         }
                     },
                     {
-                        "Oleksii Tytyunnik -Evgeniy Omicinskiy": {
-                            "placar": "11\n-\n5",
+                        "Ihor Syniavskyi -Mykhailo Vivatenko": {
+                            "placar": "7\n-\n2",
                             "tempo": "",
                             "odds": [
-                                "",
-                                ""
+                                "-",
+                                "20,00"
                             ],
-                            "id": "https://betway.com/pt/sports/evt/7957932"
+                            "id": "https://betway.com/pt/sports/evt/7958374"
+                        }
+                    },
+                    {
+                        "Rodion Pirveli -Dmitriy Lebed": {
+                            "placar": "5\n-\n3",
+                            "tempo": "",
+                            "odds": [
+                                "1,12",
+                                "5,25"
+                            ],
+                            "id": "https://betway.com/pt/sports/evt/7958375"
                         }
                     }
                 ]
@@ -732,14 +675,14 @@
             {
                 "Win Cup": [
                     {
-                        "Ivan Fashchevskiy -Valeriy Kidalov": {
-                            "placar": "0\n-\n3",
+                        "Dmitriy Ptitsyn -Aleksandr Zhuravlev": {
+                            "placar": "8\n-\n7",
                             "tempo": "",
                             "odds": [
-                                "1,05",
-                                "8,50"
+                                "1,45",
+                                "2,60"
                             ],
-                            "id": "https://betway.com/pt/sports/evt/7957300"
+                            "id": "https://betway.com/pt/sports/evt/7957327"
                         }
                     }
                 ]
@@ -749,31 +692,15 @@
     {
         "basketball": [
             {
-                "La Liga": [
-                    {
-                        "Atenas CP -Estudiantes de Concordia": {
-                            "placar": "48\n-\n63",
-                            "tempo": "3º intervalo\n,\n10'",
-                            "odds": [
-                                "9,50",
-                                "14,00",
-                                "1,05"
-                            ],
-                            "id": "https://betway.com/pt/sports/evt/7957269"
-                        }
-                    }
-                ]
-            },
-            {
                 "Division A": [
                     {
                         "Champville -Al Riyadi": {
-                            "placar": "4\n-\n13",
-                            "tempo": "1º Quarto\n,\n7'",
+                            "placar": "35\n-\n46",
+                            "tempo": "2º Quarto\n,\n1'",
                             "odds": [
-                                "7,00",
-                                "21,00",
-                                "1,07"
+                                "9,00",
+                                "17,00",
+                                "1,05"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957578"
                         }
@@ -783,27 +710,15 @@
             {
                 "Liga Pro": [
                     {
-                        "LA Clippers (rom1pr) Esports -LA Lakers (megasnake4) Esports": {
-                            "placar": "36\n-\n47",
-                            "tempo": "3º Quarto\n,\n3'",
+                        "CHI Bulls (macmafin8) Esports -BOS Celtics (Shell_Doc) Esports": {
+                            "placar": "70\n-\n61",
+                            "tempo": "4º Quarto\n,\n3'",
                             "odds": [
-                                "4,25",
-                                "17,00",
-                                "1,20"
+                                "-",
+                                "16,00",
+                                "14,00"
                             ],
-                            "id": "https://betway.com/pt/sports/evt/7958339"
-                        }
-                    }
-                ]
-            },
-            {
-                "Copa": [
-                    {
-                        "Maghreb de Fes -Widad AC de Casablanca": {
-                            "placar": "67\n-\n62",
-                            "tempo": "4º Quarto\n,\n1'",
-                            "odds": [],
-                            "id": "https://betway.com/pt/sports/evt/7957752"
+                            "id": "https://betway.com/pt/sports/evt/7958342"
                         }
                     }
                 ]
@@ -819,8 +734,8 @@
                             "placar": "",
                             "tempo": "",
                             "odds": [
-                                "1,03",
-                                "11,00"
+                                "-",
+                                "15,00"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7920912"
                         }
@@ -835,12 +750,12 @@
                 "Jogos do Championship": [
                     {
                         "Tipperary Sub-20 -Waterford Sub-20": {
-                            "placar": "0\n-\n0",
-                            "tempo": "Aguardando começo",
+                            "placar": "5\n-\n3",
+                            "tempo": "1.º tempo",
                             "odds": [
-                                "1,44",
+                                "1,35",
                                 "11,00",
-                                "3,00"
+                                "3,80"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7937563"
                         }
@@ -855,12 +770,12 @@
                 "EHF Championship Sub-19 Feminino": [
                     {
                         "Ilhas Faroé Sub-19 Feminino -Macedônia do Norte Sub-19 Feminino": {
-                            "placar": "8\n-\n11",
-                            "tempo": "1.º tempo\n,\n21'",
+                            "placar": "15\n-\n17",
+                            "tempo": "2.º tempo\n,\n39'",
                             "odds": [
-                                "7,50",
-                                "11,00",
-                                "1,12"
+                                "5,50",
+                                "6,50",
+                                "1,28"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7952923"
                         }
@@ -871,12 +786,12 @@
                 "Amistosos": [
                     {
                         "Dinamarca -Suécia": {
-                            "placar": "13\n-\n15",
-                            "tempo": "Primeiro tempo",
+                            "placar": "23\n-\n23",
+                            "tempo": "2.º tempo\n,\n45'",
                             "odds": [
-                                "2,10",
-                                "6,00",
-                                "2,00"
+                                "1,70",
+                                "4,50",
+                                "3,00"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7957754"
                         }
@@ -911,18 +826,6 @@
                             "tempo": "",
                             "odds": [],
                             "id": "https://betway.com/pt/sports/evt/7953408"
-                        }
-                    },
-                    {
-                        "NJ Devils (Ensen) Esports -BUF Sabres (Rogi_two) Esports": {
-                            "placar": "15:54",
-                            "tempo": "",
-                            "odds": [
-                                "5,25",
-                                "6,50",
-                                "1,28"
-                            ],
-                            "id": "https://betway.com/pt/sports/evt/7957301"
                         }
                     },
                     {
@@ -963,18 +866,6 @@
                             "tempo": "",
                             "odds": [],
                             "id": "https://betway.com/pt/sports/evt/7953408"
-                        }
-                    },
-                    {
-                        "NJ Devils (Ensen) Esports -BUF Sabres (Rogi_two) Esports": {
-                            "placar": "15:54",
-                            "tempo": "",
-                            "odds": [
-                                "5,25",
-                                "6,50",
-                                "1,28"
-                            ],
-                            "id": "https://betway.com/pt/sports/evt/7957301"
                         }
                     },
                     {
@@ -1244,6 +1135,22 @@
                             "odds": [],
                             "id": "https://betway.com/pt/sports/evt/7958227"
                         }
+                    },
+                    {
+                        "BUF Sabres (Spursmax) Esports -NJ Devils (Escanor) Esports": {
+                            "placar": "15:54",
+                            "tempo": "",
+                            "odds": [],
+                            "id": "https://betway.com/pt/sports/evt/7958228"
+                        }
+                    },
+                    {
+                        "PIT Penguins (Coldsiemens) Esports -FLO Panthers (Martelo) Esports": {
+                            "placar": "15:54",
+                            "tempo": "",
+                            "odds": [],
+                            "id": "https://betway.com/pt/sports/evt/7958229"
+                        }
                     }
                 ]
             }
@@ -1281,10 +1188,7 @@
                         "Shohei Ohtani - Juan Soto": {
                             "placar": "21:00",
                             "tempo": "",
-                            "odds": [
-                                "1,30",
-                                "3,50"
-                            ],
+                            "odds": [],
                             "id": "https://betway.com/pt/sports/evt/7952653"
                         }
                     },
@@ -1292,10 +1196,7 @@
                         "Salvador Perez - Pete Alonso": {
                             "placar": "21:01",
                             "tempo": "",
-                            "odds": [
-                                "2,80",
-                                "1,44"
-                            ],
+                            "odds": [],
                             "id": "https://betway.com/pt/sports/evt/7952656"
                         }
                     },
@@ -1303,10 +1204,7 @@
                         "Joey Gallo - Trevor Story": {
                             "placar": "21:02",
                             "tempo": "",
-                            "odds": [
-                                "1,53",
-                                "2,55"
-                            ],
+                            "odds": [],
                             "id": "https://betway.com/pt/sports/evt/7952739"
                         }
                     },
@@ -1314,10 +1212,7 @@
                         "Matt Olson - Trey Mancini": {
                             "placar": "21:03",
                             "tempo": "",
-                            "odds": [
-                                "1,47",
-                                "2,70"
-                            ],
+                            "odds": [],
                             "id": "https://betway.com/pt/sports/evt/7952743"
                         }
                     },
@@ -1333,7 +1228,10 @@
                         "Albuquerque Isotopes @ Round Rock Express": {
                             "placar": "21:05",
                             "tempo": "",
-                            "odds": [],
+                            "odds": [
+                                "2,15",
+                                "1,74"
+                            ],
                             "id": "https://betway.com/pt/sports/evt/7958021"
                         }
                     },
@@ -1341,7 +1239,10 @@
                         "Tacoma Rainiers @ Sugar Land Skeeters": {
                             "placar": "21:05",
                             "tempo": "",
-                            "odds": [],
+                            "odds": [
+                                "2,30",
+                                "1,66"
+                            ],
                             "id": "https://betway.com/pt/sports/evt/7952623"
                         }
                     },
@@ -1357,7 +1258,10 @@
                         "Sacramento River Cats @ Salt Lake Bees": {
                             "placar": "21:35",
                             "tempo": "",
-                            "odds": [],
+                            "odds": [
+                                "2,25",
+                                "1,69"
+                            ],
                             "id": "https://betway.com/pt/sports/evt/7958022"
                         }
                     },
@@ -1365,7 +1269,10 @@
                         "Las Vegas Aviators @ Reno Aces": {
                             "placar": "22:35",
                             "tempo": "",
-                            "odds": [],
+                            "odds": [
+                                "2,45",
+                                "1,58"
+                            ],
                             "id": "https://betway.com/pt/sports/evt/7958020"
                         }
                     }
@@ -1754,6 +1661,18 @@
                             ],
                             "id": "https://betway.com/pt/sports/evt/7952802"
                         }
+                    },
+                    {
+                        "Escócia Sub-20 -País de Gales Sub-20": {
+                            "placar": "16:00",
+                            "tempo": "",
+                            "odds": [
+                                "3,00",
+                                "21,00",
+                                "1,40"
+                            ],
+                            "id": "https://betway.com/pt/sports/evt/7952803"
+                        }
                     }
                 ]
             },
@@ -1797,6 +1716,18 @@
                                 "1,85"
                             ],
                             "id": "https://betway.com/pt/sports/evt/7952802"
+                        }
+                    },
+                    {
+                        "Escócia Sub-20 -País de Gales Sub-20": {
+                            "placar": "16:00",
+                            "tempo": "",
+                            "odds": [
+                                "3,00",
+                                "21,00",
+                                "1,40"
+                            ],
+                            "id": "https://betway.com/pt/sports/evt/7952803"
                         }
                     }
                 ]
