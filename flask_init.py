@@ -11,6 +11,11 @@ app = Flask(__name__)
 @app.route('/api/', methods=['GET'])
 def teste():
 	return "Correto"
+@app.route('/api/startRasparTodosJogos/<string:esporte>', methods=['GET'])
+def callFunction_startRasparTodosJogos(esporte):
+	data = startRasparTodosJogos(esporte)
+	return jsonify(data)		
+
 @app.route('/api/rasparTodosJogos/<string:esporte>', methods=['GET'])
 def callFunction_rasparTodosJogos(esporte):
 	data = rasparTodosJogos(esporte)
@@ -31,10 +36,15 @@ def callFunction_capturaEsportes():
 	data = capturaEsportes()
 	return jsonify(data)
 
+@app.route('/api/startleraovivo', methods=['GET'])
+def callFunction_startlerAovivo():
+	data = startlerAovivo()
+	return jsonify(data)
+
 @app.route('/api/leraovivo', methods=['GET'])
 def callFunction_lerAovivo():
 	data = lerAovivo()
-	return jsonify(data)
+	return data
 
 
 if __name__ == '__main__':

@@ -234,6 +234,7 @@ class raspador():
             dicionarioCampeonato = []
             for jogo in jogos:
                 raspador.expandirLive(jogo)
+                time.sleep(1)
                 nomeCampeonato = jogo.find_element_by_class_name("titleText").text
                 linhaDados = jogo.find_elements_by_class_name("eventHolder")
                 dicionario = []
