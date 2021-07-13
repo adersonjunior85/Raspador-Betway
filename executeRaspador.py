@@ -1,10 +1,19 @@
 from raspadorBetway import *
+from flask import Flask, jsonify, request
+
+def startRasparTodosJogos(esporte):
+    driver = raspador.iniciaNavegador()
+    while True:
+        dataRasparTodosJogos = raspador.raspadorPaises(driver,esporte)
+        with open('json/TodosOsJogos'+str(esporte)+'.json','w',encoding='utf-8') as f:
+            json.dump(dataRasparTodosJogos, f, ensure_ascii=False, indent=4)
+    return dataRasparTodosJogos
 
 def rasparTodosJogos(esporte):
-    driver = raspador.iniciaNavegador()
-    dataRasparTodosJogos = raspador.raspadorPaises(driver,esporte)
-    raspador.fechaNavegador(driver)
-    return dataRasparTodosJogos
+    with open('json/TodosOsJogos'+str(esporte)+'.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    print(data)
+    return data 
 
 def rasparLigas(esporte,liga):
     driver = raspador.iniciaNavegador()
@@ -24,14 +33,23 @@ def lerTodasOddsPorLiga(esporte,liga):
     raspador.fechaNavegador(driver)
     return dataExport
 
-def lerAovivo():
+def startlerAovivo():
     driver = raspador.iniciaNavegador()
-    jogosAovivo = raspador.aoVivo(driver)
-    raspador.fechaNavegador(driver)
+    while True:
+        jogosAovivo = raspador.aoVivo(driver)
+        with open('json/jogosAovivo.json', 'w', encoding='utf-8') as f:
+            json.dump(jogosAovivo, f, ensure_ascii=False, indent=4)
     return jogosAovivo
+
+def lerAovivo():
+    with open('json/jogosAovivo.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    return jsonify(data)
 
 def capturaEsportes():
     driver = raspador.iniciaNavegador()
     esportes = raspador.capturaEsportesPaginaInicial(driver)
+    with open('json/capturaEsportes.json', 'w', encoding='utf-8') as f:
+        json.dump(esportes, f, ensure_ascii=False, indent=4)
     raspador.fechaNavegador(driver)
     return esportes
