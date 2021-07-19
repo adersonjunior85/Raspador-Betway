@@ -16,32 +16,32 @@ def callFunction_startRasparTodosJogos(esporte):
 	data = startRasparTodosJogos(esporte)
 	return jsonify(data)		
 
-@app.route('/api/rasparTodosJogos/<string:esporte>', methods=['GET'])
+@app.route('/rasparTodosJogos/<string:esporte>', methods=['GET'])
 def callFunction_rasparTodosJogos(esporte):
 	data = rasparTodosJogos(esporte)
 	return jsonify(data)
 
-@app.route('/api/rasparLigas/<string:esporte>/<string:liga>', methods=['GET'])
+@app.route('/rasparLigas/<string:esporte>/<string:liga>', methods=['GET'])
 def callFunction_(esporte, liga):
 	data = rasparLigas(esporte,liga)
 	return jsonify(data)
 
-@app.route('/api/lerTodasOddsPorLiga/<string:esporte>/<string:liga>', methods=['GET'])
+@app.route('/lerTodasOddsPorLiga/<string:esporte>/<string:liga>', methods=['GET'])
 def callFunction_lerTodasOddsPorLiga(esporte, liga):
 	data = lerTodasOddsPorLiga(esporte,liga)
 	return jsonify(data)
 
-@app.route('/api/capturaEsportes', methods=['GET'])
+@app.route('/capturaEsportes', methods=['GET'])
 def callFunction_capturaEsportes():
 	data = capturaEsportes()
 	return jsonify(data)
 
-@app.route('/api/startleraovivo', methods=['GET'])
+@app.route('/startleraovivo', methods=['GET'])
 def callFunction_startlerAovivo():
 	data = startlerAovivo()
 	return jsonify(data)
 
-@app.route('/api/leraovivo', methods=['GET'])
+@app.route('/leraovivo', methods=['GET'])
 def callFunction_lerAovivo():
 	data = lerAovivo()
 	return data

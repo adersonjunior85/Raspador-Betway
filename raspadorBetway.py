@@ -263,5 +263,5 @@ class raspador():
         classeEsportes = driver.find_element_by_class_name("categoryListLayout.stacked")
         listaEsportes = classeEsportes.find_elements_by_class_name("categoryListItem")
         for esporte in listaEsportes:
-            esportes.append(esporte.text)
+            esportes.append([esporte.text,esporte.get_attribute("href")])
         return esportes
