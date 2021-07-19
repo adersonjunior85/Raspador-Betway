@@ -258,7 +258,7 @@ class raspador():
     def capturaEsportesPaginaInicial(driver):
         esportes = []
         driver.get("https://betway.com/pt/sports")
-        time.sleep(5)
+        time.sleep(15)
         driver.get_screenshot_as_file("screenshot.png")
         classeEsportes = driver.find_element_by_class_name("categoryListLayout.stacked")
         listaEsportes = classeEsportes.find_elements_by_class_name("categoryListItem")
