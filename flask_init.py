@@ -1,6 +1,7 @@
 from raspadorBetway import *
 from executeRaspador import *
 from flask import Flask, jsonify, request
+from flask import send_file
 from bs4 import BeautifulSoup
 from urllib.request import urlopen, Request
 import os
@@ -45,7 +46,10 @@ def callFunction_startlerAovivo():
 def callFunction_lerAovivo():
 	data = lerAovivo()
 	return data
-
+@app.route('/imagem', methods=['GET'])
+def callFunction_imagem():
+	print("a")
+	return send_file("screenshot.png", mimetype='image/gif')
 
 if __name__ == '__main__':
 	port = int(os.environ.get('PORT', 5000))
