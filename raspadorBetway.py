@@ -68,6 +68,7 @@ class raspador():
     def raspadorLigasPaises(driver,esporte,liga):
         dicionarioLigas = []
         driver.get("https://betway.com/pt/sports/ctg/"+esporte)
+        driver.get_screenshot_as_file("screenshot.png")
         time.sleep(5)
         raspador.aceitaCoockie(driver)
         raspador.expandirPaisesClica(driver,liga)
@@ -203,6 +204,7 @@ class raspador():
     def pegaHrefAoVivo(driver):
         driver.get("https://betway.com/pt/sports/lve")
         time.sleep(5)
+        driver.get_screenshot_as_file("screenshot.png")
         mainPanel = driver.find_element_by_class_name("layout.inPlayLayout.collection.vertical")
         tabelaJogos = driver.find_element_by_class_name("overflowHidden.scrollableArea.horizontalButtons.horizontal")
         jogos = tabelaJogos.find_elements_by_class_name("contentSelectorItem")
@@ -257,9 +259,8 @@ class raspador():
 
     def capturaEsportesPaginaInicial(driver):
         esportes = []
-        driver.get("https://g1.globo.com")
-        #driver.get("https://betway.com/pt/sports")
-        time.sleep(15)
+        driver.get("https://betway.com/pt/sports")
+        time.sleep(5)
         driver.get_screenshot_as_file("screenshot.png")
         classeEsportes = driver.find_element_by_class_name("categoryListLayout.stacked")
         listaEsportes = classeEsportes.find_elements_by_class_name("categoryListItem")
