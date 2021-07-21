@@ -56,7 +56,7 @@ def capturaEsportes():
 
 def abrirbetway():
     driver = raspador.iniciaNavegador()
-    driver.get("https://betway.com/pt/sports")
+    driver.get("https://www.marjosports.com/home/game-area")
     time.sleep(10)
     imagem = driver.get_screenshot_as_file("screenshot.png")
     return imagem
