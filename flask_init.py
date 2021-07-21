@@ -51,6 +51,11 @@ def callFunction_imagem():
 	print("a")
 	return send_file("screenshot.png", mimetype='image/gif')
 
+@app.route('/abrirbetway', methods=['GET'])
+def callFunction_abrirBetway():
+	abrir = abrirbetway()
+	return send_file("screenshot.png", mimetype='image/gif')
+
 if __name__ == '__main__':
 	port = int(os.environ.get('PORT', 5000))
 	app.run(host='0.0.0.0', port=port)
